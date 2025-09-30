@@ -1,6 +1,6 @@
 #navbar {
     background-color: #ededed;
-    color: white;
+    color: rgb(255, 0, 0);
     display: flex;
     justify-content: space-between;
     padding: 16px;
