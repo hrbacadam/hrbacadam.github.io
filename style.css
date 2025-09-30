@@ -1,12 +1,28 @@
 #navbar {
     background-color: #ededed;
-    color: rgb(255, 0, 0);
+    color: rgb(10, 2, 2);
     display: flex;
     justify-content: space-between;
     padding: 16px;
 }
 
 #navbar a {
-    color: rgb(253, 0, 0);
+    color: rgba(253, 0, 0, 0);
     text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #fbff00;
+    border-radius: 5px;
 }
