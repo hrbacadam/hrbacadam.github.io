@@ -1,6 +1,0 @@
-body {
-  margin: 20px;                 /* aby to nebylo nalepené na okraji okna */
-  background-color: white;      /* barva stránky */
-  border-radius: 25px;          /* zaoblené rohy */
-  box-shadow: 0 0 20px rgba(0,0,0,0.2); /* jemný stín okolo */
-}
