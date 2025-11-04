@@ -2,10 +2,10 @@ body {
   margin: 20px;
   background-color: white;
   border-radius: 25px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   font-family: sans-serif;
   text-align: center;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .big {
@@ -57,30 +57,26 @@ img {
   border-radius: 50px;
 }
 
-/
-
-
+/* === RESPONSIVE DESIGN === */
 @media (max-width: 600px) {
   body {
-    background-color: #d4f1f9; 
+    background-color: #d4f1f9;
   }
 
   #navbar {
-    background-color: #80deea; 
-  }
-  }
-
-
-@media (max-width: 900px) and (min-width: 601px) {
-  body {
-    background-color: #fff8dc; 
-  }
-
-  #navbar {
-    background-color: #ffe082; 
+    background-color: #80deea;
   }
 }
 
+@media (max-width: 900px) and (min-width: 601px) {
+  body {
+    background-color: #fff8dc;
+  }
+
+  #navbar {
+    background-color: #ffe082;
+  }
+}
 
 @media (min-width: 901px) {
   body {
@@ -91,7 +87,6 @@ img {
     background-color: #ededed;
   }
 }
-
 
 footer {
   margin-top: 40px;
