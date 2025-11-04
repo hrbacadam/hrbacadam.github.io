@@ -22,7 +22,7 @@ img {
 
 /* === NAVBAR === */
 #navbar {
-  background-color: #2412cb;
+  background-color: #ededed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ img {
 
 @media (min-width: 901px) {
   body {
-    background-color: rgb(234, 23, 23);
+    background-color: white;
   }
 
   #navbar {
