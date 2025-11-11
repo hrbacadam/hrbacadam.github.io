@@ -8,19 +8,19 @@ body {
   transition: background-color 0.3s ease; 
 }
 
-/* === TOPBAR === */
+/* === HORNÍ BAR (přidaný) === */
 #topbar {
-  background-color: #0037ff; /* 💙 modrý horní pruh */
-  color: white;              /* bílý text */
+  background-color: #000; /* černý pruh, aby ladil s projektem, ale nezasahoval do stávajících barev */
+  color: white;
   text-align: center;
   font-weight: bold;
   padding: 10px 0;
-  border-radius: 25px 25px 0 0; /* zakulacení nahoře */
+  border-radius: 25px 25px 0 0;
   letter-spacing: 0.5px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* pokud chceš, aby byl stále vidět při scrollování, odkomentuj tyto řádky:
+/* Pokud chceš, aby zůstal stále nahoře, odkomentuj tyto řádky:
 #topbar {
   position: sticky;
   top: 0;
@@ -47,6 +47,7 @@ img {
   align-items: center;
   padding: 16px;
   gap: 30px;
+  border-radius: 25px 25px 0 0;
   transition: background-color 0.3s ease;
 }
 
