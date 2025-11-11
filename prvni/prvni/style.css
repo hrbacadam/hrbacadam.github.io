@@ -1,4 +1,3 @@
-
 body {
   margin: 20px;
   background-color: white;
@@ -8,6 +7,26 @@ body {
   text-align: center;
   transition: background-color 0.3s ease; 
 }
+
+/* === TOPBAR === */
+#topbar {
+  background-color: #0037ff; /* 💙 modrý horní pruh */
+  color: white;              /* bílý text */
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 25px 25px 0 0; /* zakulacení nahoře */
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* pokud chceš, aby byl stále vidět při scrollování, odkomentuj tyto řádky:
+#topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+*/
 
 .big {
   font-size: 3rem;
@@ -28,7 +47,6 @@ img {
   align-items: center;
   padding: 16px;
   gap: 30px;
-  border-radius: 25px 25px 0 0;
   transition: background-color 0.3s ease;
 }
 
@@ -58,9 +76,7 @@ img {
   border-radius: 50px;
 }
 
-/
-
-
+/* === RESPONSIVE === */
 @media (max-width: 600px) {
   body {
     background-color: #d4f1f9; 
@@ -70,7 +86,6 @@ img {
     background-color: #80deea; 
   }
 }
-
 
 @media (max-width: 900px) and (min-width: 601px) {
   body {
@@ -82,7 +97,6 @@ img {
   }
 }
 
-
 @media (min-width: 901px) {
   body {
     background-color: white;
@@ -93,7 +107,7 @@ img {
   }
 }
 
-
+/* === FOOTER === */
 footer {
   margin-top: 40px;
   font-size: 0.9em;
